@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 object "ERC1155Yul" {
     code {
-        // Store the creator in slot zero.
+        // Store the creator in slot zero
         sstore(0, caller())
 
         // Deploy the contract
